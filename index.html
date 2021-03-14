@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="./style/header.css">
+	<link rel="stylesheet" href="./style/main.css">
+	<link rel="stylesheet" href="./style/footer.css">
+	<link rel="stylesheet" href="./style/responsive.css">
+	<title>Clone Fundação Lemann</title>
+</head>
+
+<body>
+
+	<section class="backgroundImage">
+		<section class="backgroundImageColor">
+			<header>
+				<section class="logoP">
+					<img id="logoImg" width="75" src="./assets/image/Brazil.svg" alt="">
+					<p>Por um Brasil que <br>
+						acredita nas pessoas!</p>
+				</section>
+
+				<ul class="menu">
+					<li><a class="menuLink" href="#">Somos</a></li>
+					<li><a class="menuLink" href="#">Transformamos</a></li>
+					<li><a class="menuLink" href="#">Juntos</a></li>
+					<li><a class="menuLink" href="#">Dúvidas</a></li>
+					<li><a class="menuLink" href="#">Covid-19</a></li>
+					<li><a id="todos" class="menuLink" href="#">Todos &#8595</a></li>
+				</ul>
+
+				<section class="options">
+					<img onclick="search()" src="./assets/icons/search.svg" alt="">
+					<a class="mail" href="mailto:someone@microsoft.com?subject=Hello%20again">
+						<img src="./assets/icons/mail.svg" alt=""></a>
+					<img onclick="letterType()" src="./assets/icons/type.svg" alt="">
+					<img onclick="letterSize()" src="./assets/icons/bold.svg" alt="">
+					<img onclick="blackMode()" src="./assets/icons/droplet.svg" alt="">
+				</section>
+
+				<section class="language">
+					<img src="./assets/image/Brazil.svg" alt="">
+				</section>
+			</header>
+
+			<section id="flexEnd">
+				<section class="news">
+
+					<section class="principal">
+						<h1>Estudo indica que volta presencial não elevou contaminações</h1>
+
+						<p>Levantamento organizado pelo Vozes da Educação traz dados de iniciativas de volta às aulas em
+							21 países na pandemia.</p>
+						<button>Leia</button> <a id="knowNewHistory" href="#">Conheça outras histórias</a>
+					</section>
+
+					<section class="moreNews">
+						<p>Útimas Notícias</p>
+						<ul id="listNews">
+							<a class="listN" href="#">
+								<li class="listTN">Plataformas online apoiam redes na reabertura das escolas</li>
+							</a>
+							<a class="listN" href="#">
+								<li class="listTN">Plataformas online apoiam redes na reabertura das escolas</li>
+							</a>
+							<a class="listN" href="#">
+								<li class="listTN">Plataformas online apoiam redes na reabertura das escolas</li>
+							</a>
+							<a class="listN" href="#">
+								<li class="listTN">Plataformas online apoiam redes na reabertura das escolas</li>
+							</a>
+						</ul>
+					</section>
+				</section>
+			</section>
+		</section>
+	</section>
+
+	<main>
+		<section class="aboutUs">
+			<section class="moreNewsResponsive">
+				<h2>Notícias</h2>
+				<ul id="listNews">
+					<a class="listN" href="#">
+						<li class="listTN">Plataformas online apoiam redes na reabertura das escolas
+							&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &#8594</li>
+					</a>
+					<a class="listN" href="#">
+						<li class="listTN">Plataformas online apoiam redes na reabertura das escolas
+							&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &#8594</li>
+					</a>
+					<a class="listN" href="#">
+						<li class="listTN">Plataformas online apoiam redes na reabertura das escolas
+							&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &#8594</li>
+					</a>
+					<a class="listN" href="#">
+						<li class="listTN">Plataformas online apoiam redes na reabertura das escolas
+							&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &#8594</li>
+					</a>
+					<button class="knowNewHistoryResponsive">Conheça outras histórias</button>
+				</ul>
+			</section>
+			<section class="weBelieve">
+				<h2>O que acreditamos</h2>
+				<p class="changeColorWhite">Um Brasil mais justo, inclusivo e avançado com educação pública de qualidade
+					e
+					com pessoas que estão resolvendo os grandes desafios sociais do país. Vamos juntos?
+				</p>
+			</section>
+
+			<section class="novidades">
+				<section class="formsText">
+					<h2>Novidades</h2>
+					<p class="changeColorWhite">Fique por dentro das novidades da Fundação Lemann. Cadastre-se para
+						receber todos os conteúdos ou
+						escolha o perfil mais adequado ao seu interesse.
+					</p>
+				</section>
+				<section class="forms">
+					<select class="formsMain" name="perfil" size="1">
+						<option value="SP">Selecionar Perfil</option>
+						<option value="Ed">Educadores</option>
+						<option value="Li">Lideranças</option>
+						<option value="Em">Empreendedores</option>
+						<option value="Gv">Governo</option>
+						<option value="Pa">Parceiros</option>
+						<option value="Al">Alunos</option>
+						<option value="Im">Imprensa</option>
+						<option value="Ou">Outros</option>
+					</select>
+					<input class="formsMain" type="email" name="email" placeholder="Insira seu e-mail">
+					<input class="formsMain" type="submit" value="Cadastre-se">
+				</section>
+			</section>
+			<div>
+				<h2>Quem faz</h2>
+				<p class="changeColorWhite">Conheça as pessoas que estão trabalhando para ajudar o Brasil a avançar para
+					todos. Acesse a galeria
+					de perfis da equipe Fundação Lemann.
+				</p>
+			</div>
+		</section>
+
+		<section class="author">
+			<h2>Em construção ;)</h2>
+		</section>
+
+		<button class="knowNewPeopleResponsive">Conheça todas as pessoas</button>
+
+		<section class="research">
+
+			<section class="researchText">
+				<h2>Pesquisas e materiais de referência</h2>
+				<a href="#">VER TODAS AS PUBLICAÇÕES</a>
+			</section>
+
+			<section class="researchGrid">
+
+				<a id="area1" class="smallImage" href="#">
+					<img src="./assets/image/education.jpg" alt="">
+					<div class="cardInfo">
+						<h4>Estudo indica que volta presencial não elevou contaminações</h4>
+						<p>Levantamento organizado pelo Vozes da Educação traz dados de iniciativas de volta às aulas em
+							21 países na pandemia.</p>
+					</div>
+				</a>
+
+				<a id="area2" class="largeImage" href="#">
+					<img src="./assets/image/education.jpg" alt="">
+					<div class="cardInfo">
+						<h4>Estudo indica que volta presencial não elevou contaminações</h4>
+						<p>Levantamento organizado pelo Vozes da Educação traz dados de iniciativas de volta às aulas em
+							21 países na pandemia.</p>
+					</div>
+				</a>
+
+				<a id="area3" class="smallImage" href="#">
+					<img src="./assets/image/education.jpg" alt="">
+					<div class="cardInfo">
+						<h4>Estudo indica que volta presencial não elevou contaminações</h4>
+						<p>Levantamento organizado pelo Vozes da Educação traz dados de iniciativas de volta às aulas em
+							21 países na pandemia.</p>
+					</div>
+				</a>
+
+				<a id="area4" class="smallImage" href="#">
+					<img src="./assets/image/education.jpg" alt="">
+					<div class="cardInfo">
+						<h4>Estudo indica que volta presencial não elevou contaminações</h4>
+						<p>Levantamento organizado pelo Vozes da Educação traz dados de iniciativas de volta às aulas em
+							21 países na pandemia.</p>
+					</div>
+				</a>
+
+				<a id="area5" class="smallImage" href="#">
+					<img src="./assets/image/education.jpg" alt="">
+					<div class="cardInfo">
+						<h4>Estudo indica que volta presencial não elevou contaminações</h4>
+						<p>Levantamento organizado pelo Vozes da Educação traz dados de iniciativas de volta às aulas em
+							21 países na pandemia.</p>
+					</div>
+				</a>
+
+				<a id="area6" class="smallImage" href="#">
+					<img src="./assets/image/education.jpg" alt="">
+					<div class="cardInfo">
+						<h4>Estudo indica que volta presencial não elevou contaminações</h4>
+						<p>Levantamento organizado pelo Vozes da Educação traz dados de iniciativas de volta às aulas em
+							21 países na pandemia.</p>
+					</div>
+				</a>
+			</section>
+		</section>
+
+		<span class="fixedButton">
+		</span>
+	</main>
+
+
+
+	<footer>
+
+		<section class="footerGrid">
+			<section>
+				<img width="50" src="./assets/image/Brazil.svg" alt="">
+				<p>
+					A Fundação Lemann é uma organização familiar e sem fins lucrativos que colabora com iniciativas para
+					a
+					educação pública em todo o Brasil e apoia pessoas comprometidas em resolver grandes desafios sociais
+					do país.
+					<br>
+					<br>
+					Nós não vendemos nenhum produto educacional, não estamos associados a nenhuma organização privada e
+					não apoiamos nenhum partido político, coligação ou campanha eleitoral.
+				</p>
+
+				<span>Rua dos Pinheiros, 870 - Pinheiros - São Paulo</span>
+			</section>
+
+			<section>
+				<h3>Assine nosso Boletim</h3>
+				<p>Receba novidades e fique por dentro de tudo que a Fundação Lemann faz pelo Brasil.</p>
+				<section class="formsFooter">
+					<select class="formsBottom" name="perfil" size="1">
+						<option value="SP">Selecionar Perfil</option>
+						<option value="Ed">Educadores</option>
+						<option value="Li">Lideranças</option>
+						<option value="Em">Empreendedores</option>
+						<option value="Gv">Governo</option>
+						<option value="Pa">Parceiros</option>
+						<option value="Al">Alunos</option>
+						<option value="Im">Imprensa</option>
+						<option value="Ou">Outros</option>
+					</select>
+					<input class="formsBottom" type="email" name="email" placeholder="Insira seu e-mail">
+					<input class="formsBottom" type="submit" value="Cadastre-se">
+				</section>
+			</section>
+
+			<section>
+				<a class="menuLinkFooter" href="#">Somos</a>
+				<a class="menuLinkFooter" href="#">Transformamos</a>
+				<a class="menuLinkFooter" href="#">Imprensa</a>
+				<a class="menuLinkFooter" href="#">Trabalhe Conosco</a>
+				<a class="menuLinkFooter" href="#">Contato</a>
+				<a class="menuLinkFooter" href="#">Seja um parceiro</a>
+				<a class="menuLinkFooter" href="#">Compliance</a>
+				<a class="menuLinkFooter" href="#">Covid-19</a>
+				<a id="todos" class="menuLinkFooter" href="#">Mapa do site</a>
+			</section>
+		</section>
+
+		<span onclick="topFunction()" class="up">
+			&uarr;
+		</span>
+	</footer>
+
+	<script src="script/script.js"></script>
+</body>
+
+</html>

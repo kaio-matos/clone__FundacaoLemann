@@ -1,0 +1,268 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--var_principalColor);
+}
+
+section.aboutUs {
+    display: flex;
+    flex-direction: column;
+    width: clamp(90vw, 100vw, 1200px);
+    margin: auto;
+}
+
+section.aboutUs > section{
+    margin: 50px;
+    width: 80%;
+
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.185);
+}
+
+section.aboutUs > div {
+    margin: 50px;
+    width: 80%;
+}
+
+section.moreNewsResponsive {
+    display: none;
+}
+
+section.aboutUs > section h2{
+    font-size: 2rem;
+    color: var(--var_principalColor);
+    margin-bottom: 15px;
+}
+
+section.aboutUs > div h2{
+    font-size: 2rem;
+    color: var(--var_principalColor);
+    margin-bottom: 15px;
+}
+section.novidades {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end
+}
+
+section.formsText {
+    width: 500px;
+}
+
+.forms {
+    display: flex;
+}
+
+select[name="perfil"] {
+    font-size: 1rem;
+    padding: 5px;
+
+    outline: none;
+    border:  1px solid var(--var_principalColor);
+    border-radius: 2px;
+}
+
+.formsMain {
+    color:rgba(0, 0, 0, 0.479);
+    font-size: 1.3rem;
+}
+
+input[type="email"]{
+
+    padding: 10px;
+    outline: none;
+    border:  1px solid var(--var_principalColor);
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    font-size: 1.3rem;
+    padding: 15px;
+
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color:   var(--var_principalColor);
+    transition: 200ms;
+}
+
+input[type="submit"]:hover {
+    transition: 200ms;
+
+    color: var(--var_principalColor);
+
+    cursor: pointer;
+    box-shadow: inset 1px 1px 1px var(--var_principalColor), 1px 1px 1px var(--var_principalColor) ;
+    background-color:   rgb(255, 255, 255);
+}
+
+/* ---------------------------- */
+/* -------------- Authors Carousel -------------- */
+/* ---------------------------- */
+
+section.author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: rgb(255, 175, 83);
+}
+
+section.author > h2 {
+    color:brown
+}
+
+button.knowNewPeopleResponsive {
+    display: none;
+}
+
+/* ---------------------------- */
+/* -------------- Research -------------- */
+/* ---------------------------- */
+
+section.research {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+section.researchText {
+    display: flex;
+    align-items: baseline;
+
+    font-weight: 600;
+    margin: 50px;
+}
+
+section.researchText > a{
+    transition: 200ms;
+    color: var(--var_principalColor);
+    margin-left: 300px;
+}
+
+section.researchText > a:hover{
+    color: rgb(36, 156, 110);
+    transform: scale(1.1);
+}
+
+section.researchGrid{
+    display: grid;
+    width: min-content;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: clamp(5px, 1vw, 1rem);
+    padding: 20px;
+    grid-gap: 20px;
+    grid-template-areas: "a1 a2 a2 a2"
+                         "a3 a4 a5 a6";
+}
+
+section.researchGrid > a {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.349);
+
+    color:rgb(8, 48, 80);
+    transition: 200ms;
+    text-decoration: none;
+}
+
+section.researchGrid > a:hover {
+    transition: 200ms;
+    background-color: var(--var_principalColor);
+    transform: scale(1.02);
+
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.336);
+    color:white;
+}
+
+section.researchGrid > a.largeImage {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+section.researchGrid > a.smallImage {
+    
+}
+
+section.researchGrid > a.smallImage > img {
+    width: 100%;
+}
+
+section.researchGrid > a.largeImage > img {
+    width: clamp(70%, 20vw, 100%);
+    height: 100%;
+}
+
+div.cardInfo {
+    padding: 25px;
+}
+
+div.cardInfo > p {
+    margin-top: 15px;
+}
+
+a#area1 {
+    grid-area: a1;
+    width: clamp(100px, 20vw, 300px);
+    height: clamp(50%, 35vw, 100%);
+}
+a#area2 {
+    grid-area: a2;
+    height: clamp(50%, 35vw, 100%);
+}
+a#area3 {
+    grid-area: a3;
+    width: clamp(100px, 20vw, 300px);
+    height: clamp(50%, 35vw, 100%);
+}
+a#area4 {
+    grid-area: a4;
+    width: clamp(100px, 20vw, 300px);
+    height: clamp(50%, 35vw, 100%);
+}
+a#area5 {
+    grid-area: a5;
+    width: clamp(100px, 20vw, 300px);
+    height: clamp(50%, 35vw, 100%);
+}
+a#area6 {
+    grid-area: a6;
+    width: clamp(100px, 20vw, 300px);
+    height: clamp(50%, 35vw, 100%);
+}
+
+span.fixedButton {
+    height: 75px;
+    width: 75px;
+    box-sizing: border-box;
+
+    position: fixed;
+    bottom: 25px;
+    right: 50px;
+    z-index: 999;
+
+    transition: 500ms;
+    border-radius: 50%;
+    box-shadow: 1px 1px 15px var(--var_principalColor);
+
+    background-image: url("https://push.al/wp-content/uploads/2020/07/botao_bot-01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span.fixedButton:hover {
+    transition: 500ms;
+    cursor: pointer;
+
+    border: 2px solid var(--var_principalColor);
+    box-shadow: 1px 1px 30px var(--var_principalColor);
+}

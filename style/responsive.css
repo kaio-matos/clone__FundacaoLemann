@@ -1,0 +1,294 @@
+@media only screen and (max-width: 1000px) {
+    header {
+        width: 100%;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+
+    section.logoP {
+        display: grid;
+        grid-template: 1fr / 0.5fr 1fr;
+    
+    }
+    
+    section.logoP > p {
+        display: flex;
+        padding: 10px;
+        font-size: 1.1rem;
+        align-self: center;
+    }
+
+    ul.menu {
+        display: none;
+    }
+    section.options {
+        display: none;
+    }
+    section.language {
+        display: none;
+    }
+
+    section.backgroundImage {
+        /* background-position: center; */
+        background-position: -90px 60px;
+    }
+
+    section.news {
+        display: grid;
+        align-self: center;
+    
+        width: 1200px;
+    
+        font-family: Montserrat;
+        color: white;
+    
+        grid-template: 1fr / 1fr;
+    }
+
+    section.principal {
+        justify-content: center;
+        text-align: center;
+        width: 400px;
+    }
+
+    a#knowNewHistory {
+        display: none;
+    }
+
+    section.moreNews {
+        display: none;
+    }
+
+/* ---------------------------- */
+/* -------------- Main -------------- */
+/* ---------------------------- */
+
+    h2 {
+        font-size: 2.5rem !important;
+    }
+
+    section.aboutUs{
+        width: 100vw;
+        max-width: 100%;
+        box-sizing: border-box;
+        font-size: 1.5rem;
+    }
+
+
+    section.moreNewsResponsive {
+        display: block;
+    }
+
+    a.listN {
+        color: rgb(8, 48, 80);
+
+    }
+    li.listTN {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgba(87, 87, 87, 0.171);
+
+    }
+
+    button.knowNewHistoryResponsive {
+        width: 100%;
+        padding: 50px;
+
+        margin-top: 50px;
+
+        border-radius: 15px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.473);
+    }
+
+    section.aboutUs > section{
+        padding: 50px;
+        width: 100%;
+
+        border-bottom: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    section.weBelieve {
+        display: none;
+    }
+
+    section.formsText {
+        width: 100%;
+    }
+
+    section.novidades {
+        display: flex;
+        flex-flow: column wrap;
+        align-items:flex-start;
+        
+
+        background-color: rgba(221, 221, 221, 0.400);
+        width: 100%;
+    }
+
+    .forms {
+        display: block;
+    }
+    
+    .formsMain {
+        color:rgba(0, 0, 0, 0.479);
+        width: 100%;
+        
+        padding: 40px !important;
+        margin-top: 30px;
+        
+        font-size: 1.5rem !important;
+        border-radius: 15px !important;
+        border: 1px solid rgba(0, 0, 0, 0.349) !important;
+        box-sizing: border-box;
+    }
+
+    section.aboutUs > div > p {
+        display: none;
+    }
+
+    button.knowNewPeopleResponsive {
+        display: block;
+        width: 80%;
+        padding: 50px;
+
+        margin: auto;
+        margin-top: 50px;
+
+        border-radius: 15px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.473);
+    }
+
+    section.researchText{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.researchText > a {
+        display: none;
+    }
+
+    
+    section.researchGrid{
+        display: grid;
+        width: min-content;
+        margin: auto;
+        box-sizing: border-box;
+        font-size: 1rem;
+        padding: 20px;
+        grid-gap: 20px;
+        grid-template-areas: "a1"
+                             "a2"
+                             "a3"
+                             "a4" 
+                             "a5" 
+                             "a6"
+    }
+
+    section.researchGrid > a.largeImage {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    section.researchGrid > a.smallImage > img {
+        width: 100%;
+    }
+
+    section.researchGrid > a.largeImage > img {
+        width: 100%;
+    }
+
+    div.cardInfo {
+        padding: 25px;
+    }
+
+    div.cardInfo > p {
+        margin-top: 15px;
+    }
+
+    a#area1 {
+        grid-area: a1;
+        width: 80vw;
+        height: 100%;
+    }
+    a#area2 {
+        grid-area: a2;
+        width: 80vw;
+        height: 100%;
+    }
+    a#area3 {
+        grid-area: a3;
+        width: 80vw;
+        height: 100%;
+    }
+    a#area4 {
+        grid-area: a4;
+        width: 80vw;
+        height: 100%;
+    }
+    a#area5 {
+        grid-area: a5;
+        width: 80vw;
+        height: 100%;
+    }
+    a#area6 {
+        grid-area: a6;
+        width: 80vw;
+        height: 100%;
+    }
+
+/* ---------------------------- */
+/* -------------- Footer -------------- */
+/* ---------------------------- */
+
+    span.up {
+        left: 50%;
+    }
+    section.footerGrid {
+        grid-template: auto auto auto / auto;
+    }
+
+    .formsBottom {
+        width: 80%;
+        margin-top: 10px;
+        padding: 50px !important;
+    
+        font-size: 1rem;
+        color:rgba(161, 161, 161, 0.829);
+        background-color: transparent;
+        box-sizing: border-box;
+    
+
+        border-radius: 15px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.473);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    section.backgroundImage {
+        background-position: center;
+    }
+    section.news {
+        display: grid;
+        align-self: center;
+    
+
+    
+        font-family: Montserrat;
+        color: white;
+    
+        grid-template: 1fr / 1fr;
+    }
+
+    section.principal {
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
+    }
+
+    section.principal > h1 {
+        font-size: 2rem;
+    }
+}
