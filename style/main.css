@@ -40,8 +40,8 @@ section.aboutUs p {
 
 section.aboutUs > div {
   display: flex;
-  margin: 50px;
   justify-content: space-between;
+  margin: 50px;
   width: 90%;
 }
 
@@ -98,12 +98,18 @@ select[name="perfil"] {
   font-size: 1.3rem;
 }
 
+.forms input[type="email"] {
+  margin-left: 1rem;
+}
+.forms input[type="submit"] {
+  border-radius: 0 5px 5px 0;
+}
+
 input[type="email"] {
   padding: 10px;
   outline: none;
   border: 1px solid var(--var_principalColor);
   border-radius: 5px 0 0 5px;
-  margin-left: 1rem;
 }
 
 input[type="submit"] {
@@ -113,7 +119,6 @@ input[type="submit"] {
   color: white;
   outline: none;
   border: none;
-  border-radius: 0 5px 5px 0;
   background-color: var(--var_principalColor);
   transition: 200ms;
 }

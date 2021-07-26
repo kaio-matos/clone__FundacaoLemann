@@ -70,7 +70,7 @@
     width: 100vw;
     max-width: 100%;
     box-sizing: border-box;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   section.moreNewsResponsive {
@@ -126,6 +126,25 @@
     display: block;
   }
 
+  section.aboutUs p {
+    width: 100%;
+  }
+
+  section.aboutUs > div {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 50px;
+  }
+
+  section.aboutUs > div a {
+    margin-top: 3rem;
+  }
+
+  .forms input[type="email"] {
+    margin: 0;
+  }
+
   .formsMain {
     color: rgba(0, 0, 0, 0.479);
     width: 100%;
@@ -141,18 +160,6 @@
 
   section.aboutUs > div > p {
     display: none;
-  }
-
-  button.knowNewPeopleResponsive {
-    display: block;
-    width: 80%;
-    padding: 50px;
-
-    margin: auto;
-    margin-top: 50px;
-
-    border-radius: 15px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.473);
   }
 
   section.researchText {
