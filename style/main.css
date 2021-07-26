@@ -9,28 +9,23 @@ h2 {
   color: var(--var_principalColor);
 }
 
+section.moreNewsResponsive {
+  display: none;
+}
+
 section.aboutUs {
   display: flex;
   flex-direction: column;
-  width: clamp(90vw, 100vw, 1200px);
+  width: clamp(90vw, 100vw, 1330px);
   margin: auto;
 }
 
 section.aboutUs > section {
   margin: 50px;
-  width: 80%;
+  width: 90%;
 
   padding-bottom: 15px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.185);
-}
-
-section.aboutUs > div {
-  margin: 50px;
-  width: 80%;
-}
-
-section.moreNewsResponsive {
-  display: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.185);
 }
 
 section.aboutUs > section h2 {
@@ -39,19 +34,48 @@ section.aboutUs > section h2 {
   margin-bottom: 15px;
 }
 
+section.aboutUs p {
+  width: 40rem;
+}
+
+section.aboutUs > div {
+  display: flex;
+  margin: 50px;
+  justify-content: space-between;
+  width: 90%;
+}
+
 section.aboutUs > div h2 {
   font-size: 2rem;
   color: var(--var_principalColor);
   margin-bottom: 15px;
 }
+
+.aboutUs > div a {
+  display: inline-block;
+  transition: 200ms;
+  color: var(--var_principalColor);
+  cursor: pointer;
+}
+
+.aboutUs > div a:hover {
+  color: rgb(36, 156, 110);
+  transform: scale(1.1);
+}
+
 section.novidades {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  justify-content: space-between;
 }
 
 section.formsText {
   width: 500px;
+}
+
+section.formsText p {
+  width: 100%;
 }
 
 .forms {
@@ -65,6 +89,8 @@ select[name="perfil"] {
   outline: none;
   border: 1px solid var(--var_principalColor);
   border-radius: 2px;
+  height: min-content;
+  margin-top: 0.5rem;
 }
 
 .formsMain {
@@ -76,7 +102,8 @@ input[type="email"] {
   padding: 10px;
   outline: none;
   border: 1px solid var(--var_principalColor);
-  border-radius: 5px;
+  border-radius: 5px 0 0 5px;
+  margin-left: 1rem;
 }
 
 input[type="submit"] {
@@ -86,7 +113,7 @@ input[type="submit"] {
   color: white;
   outline: none;
   border: none;
-  border-radius: 5px;
+  border-radius: 0 5px 5px 0;
   background-color: var(--var_principalColor);
   transition: 200ms;
 }
