@@ -64,12 +64,3 @@ function blackMode() {
     }
   }
 }
-
-function topFunction() {
-  const interval = setInterval(() => {
-    let scrollPositionY = document.documentElement.scrollTop;
-    document.documentElement.scrollTop -= 10;
-
-    if (scrollPositionY <= 0) clearInterval(interval);
-  }, 1);
-}

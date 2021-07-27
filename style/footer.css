@@ -42,7 +42,7 @@ a.menuLinkFooter:hover {
   color: rgb(36, 156, 110);
 }
 
-span.up {
+.up {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -63,9 +63,10 @@ span.up {
   transition: 500ms;
   border-radius: 50%;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.253);
+  text-decoration: none;
 }
 
-span.up:hover {
+.up:hover {
   transition: 500ms;
   cursor: pointer;
 

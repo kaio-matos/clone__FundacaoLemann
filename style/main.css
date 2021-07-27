@@ -16,7 +16,7 @@ section.moreNewsResponsive {
 section.aboutUs {
   display: flex;
   flex-direction: column;
-  width: clamp(90vw, 100vw, 1330px);
+  width: clamp(90vw, 100vw, 100%);
   margin: auto;
 }
 
