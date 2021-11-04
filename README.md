@@ -2,7 +2,7 @@
 
 Clone feito para praticar HTML, CSS e JS.
 
-[Site](https://kaio-matos.github.io/clone_index_fundacaoLemann/)
+[Site](https://kaio-matos.github.io/clone__FundacaoLemann/)
 
 
 ## Página Desktop
